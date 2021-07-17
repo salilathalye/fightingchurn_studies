@@ -53,37 +53,39 @@
             "name": "count_metric_insert",
             "params": {
                 "mode": "run",
+                "%event2measure": "ReadingOwnedBook",
                 "%new_metric_id": 0
             },
             "v1": {
-                "%event2measure": "like"
+                "%event2measure": "ReadingOwnedBook",
+                "%new_metric_id": 0
             },
             "v2": {
-                "%event2measure": "newfriend",
+                "%event2measure": "EBookDownloaded",
                 "%new_metric_id": 1
             },
             "v3": {
-                "%event2measure": "post",
+                "%event2measure": "ReadingFreePreview",
                 "%new_metric_id": 2
             },
             "v4": {
-                "%event2measure": "adview",
+                "%event2measure": "HighlightCreated",
                 "%new_metric_id": 3
             },
             "v5": {
-                "%event2measure": "dislike",
+                "%event2measure": "FreeContentCheckout",
                 "%new_metric_id": 4
             },
             "v6": {
-                "%event2measure": "unfriend",
+                "%event2measure": "ReadingOpenChapter",
                 "%new_metric_id": 5
             },
             "v7": {
-                "%event2measure": "message",
+                "%event2measure": "WishlistItemAdded",
                 "%new_metric_id": 6
             },
             "v8": {
-                "%event2measure": "reply",
+                "%event2measure": "CrossReferenceTermOpened",
                 "%new_metric_id": 7
             }
         },
@@ -91,40 +93,39 @@
             "name": "metric_name_insert",
             "params": {
                 "mode": "run",
-                "%new_metric_name": "like_per_month",
+                "%new_metric_name": "ReadingOwnedBook_90d",
                 "%new_metric_id": 0
             },
-            "v11": {
-                "%new_metric_name": "account_tenure",
-                "%new_metric_id": 8
+            "v1": {
+                "%new_metric_name": "ReadingOwnedBook_90d",
+                "%new_metric_id": 0
             },
-            "v1": {},
             "v2": {
-                "%new_metric_name": "newfriend_per_month",
+                "%new_metric_name": "EBookDownloaded_90d",
                 "%new_metric_id": 1
             },
             "v3": {
-                "%new_metric_name": "post_per_month",
+                "%new_metric_name": "ReadingFreePreview_90d",
                 "%new_metric_id": 2
             },
             "v4": {
-                "%new_metric_name": "adview_per_month",
+                "%new_metric_name": "HighlightCreated_90d",
                 "%new_metric_id": 3
             },
             "v5": {
-                "%new_metric_name": "dislike_per_month",
+                "%new_metric_name": "FreeContentCheckout_90d",
                 "%new_metric_id": 4
             },
             "v6": {
-                "%new_metric_name": "unfriend_per_month",
+                "%new_metric_name": "ReadingOpenChapter_90d",
                 "%new_metric_id": 5
             },
             "v7": {
-                "%new_metric_name": "message_per_month",
+                "%new_metric_name": "WishlistItemAdded",
                 "%new_metric_id": 6
             },
             "v8": {
-                "%new_metric_name": "reply_per_month",
+                "%new_metric_name": "CrossReferenceTermOpened",
                 "%new_metric_id": 7
             }
         },
